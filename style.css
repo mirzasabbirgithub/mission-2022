@@ -1,0 +1,164 @@
+body{
+    font-family: 'Poppins', sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+.first-font{
+    font-family: 'Abril Fatface', cursive;
+    margin: 0;
+}
+
+h1{
+    font-size: 50px;
+}
+.orange-color{
+    color: orange;
+}
+.color-red{
+    color: red;;
+}
+
+.section-1{
+    display: flex;
+    margin-bottom: 10px;
+}
+
+.half-div{
+    width: 55%;
+    padding: 5%;
+}
+.half-div img{
+    width: 80%;
+    border-radius: 30px;
+}
+
+.half-div-inside{
+    border-left: 4px solid;
+    border-image: linear-gradient(red,orange);
+    border-image-slice: 1;
+}
+
+.half-div-inside h1{
+    margin-left: 10px;
+}
+.half-div p{
+margin-top: 35px;
+}
+
+.button{
+    margin-top: 10px;
+    text-decoration: none;
+    background-color: #e75050;
+    padding: 10px 40px;
+    border-radius: 5px;
+    color: white;
+}
+
+.section-2{
+    margin-bottom: 10px;
+
+}
+.section-2 h1{
+    text-align: center;
+}
+
+.box-wrapper{
+    padding-left: 150px;
+    padding-right: 150px;
+    display: flex;
+    margin-bottom: 150px;
+}
+
+.box-1{
+    background-color: #c2e9f8;
+    padding: 20px;
+    border-radius: 30px;
+    margin-left: 10px;
+    margin-right: 50px;
+    width: 30%;
+}
+
+.box-1 img{
+    width: 20%;
+}
+
+.box-1 p{
+    text-align: justify;
+}
+
+
+.box-2{
+    background-color: #ffe8a8;
+    border-radius: 30px;
+    padding: 20px;
+    margin-right: 50px;
+    width: 30%;
+}
+
+.box-2 img{
+    width: 20%;
+}
+
+.box-2 p{
+    text-align: justify;
+}
+
+
+.box-3{
+    background-color: #f7f8af;
+    padding: 20px;
+    border-radius: 30px;
+    width: 30%;
+}
+
+.box-3 img{
+    width: 20%;
+}
+
+.box-3 p{
+    text-align: justify;
+}
+
+.section-3{
+    background-image: url(images/shapes/new.png);
+    background-repeat: no-repeat;
+    background-position: left;
+    display: flex;
+    margin-bottom: 10px;
+}
+
+.section-4{
+    background-image: url(images/shapes/new.png);
+    background-repeat: no-repeat;
+    background-position: right;
+    display: flex;
+    margin-bottom: 10px;
+}
+
+footer{
+   
+    background-color: black;
+    padding: 30px;
+}
+
+footer p{
+    color:white;
+    text-align: center;
+}
+footer h3{
+    font-family: 'Yellowtail', cursive;
+    font-size: 40px;
+    color:white;
+    text-align: center;
+}
+
+.f-color{
+    font-size: 40px;
+    color: #cc2a2a;
+}
+
+.section-5{
+    background-image: linear-gradient(white,gray);
+    display: flex;
+}
